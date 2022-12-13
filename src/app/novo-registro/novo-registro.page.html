@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start" (click)="voltar()">
+      <ion-icon name="arrow-back"> </ion-icon>
+
+    </ion-buttons>
+    <ion-title>Novo Registro</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="floating">
+      NOME:
+    </ion-label>
+    <ion-input type="text">
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      CNH:
+    </ion-label>
+    <ion-input type="number">
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      EMPRESA
+    </ion-label>
+    <ion-input type="text">
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      ENTRADA:
+    </ion-label>
+    <ion-input>
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      SAÍDA
+    </ion-label>
+    <ion-input>
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>VEÍCULO</ion-label>
+    <ion-select placeholder="Selecione">
+      <ion-select-option value="carreta">CARRETA</ion-select-option>
+      <ion-select-option value="container">CONTAINER</ion-select-option>
+      <ion-select-option value="carro">CARRO</ion-select-option>
+      <ion-select-option value="moto">MOTO</ion-select-option>
+      <ion-select-option value="rota">ROTA</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      PLACA
+    </ion-label>
+    <ion-input>
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      CARRETA
+    </ion-label>
+    <ion-input>
+
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">
+      AUTORIZANTE:
+    </ion-label>
+    <ion-input>
+
+    </ion-input>
+  </ion-item>
+
+  <ion-button color="success" expand="block">
+    SALVAR
+  </ion-button>
+</ion-content>
